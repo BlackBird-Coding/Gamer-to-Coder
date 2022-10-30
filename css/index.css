@@ -1,18 +1,23 @@
-body {
+body,
+html {
   margin: 0;
   padding: 0;
   background-color: rgb(31, 31, 43);
+  font-family: "Nunito Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .navbar {
-  background-color: rgb(31, 31, 43);
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .navbar ul {
   list-style-type: none;
   overflow: hidden;
   max-width: 80rem;
-  margin: auto;
+  position: relative;
 }
 
 .navbar li {
@@ -82,4 +87,16 @@ body {
   border-radius: 0.5rem;
   margin: 0.25rem;
   padding: 0.25rem 0.5rem;
+}
+
+.up {
+  width: 4rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  background-color: rgba(0, 0, 0, 0.555);
+  border-radius: 0.5rem;
+  color: white;
+  border: none;
 }

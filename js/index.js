@@ -3,9 +3,8 @@ import { getAssets, getMiniGames, getMiniGame } from "./source.js";
 const miniGames = await getMiniGames();
 const app = document.querySelector("#app");
 
-miniGames.map((miniGame) => {
+miniGames.map((miniGame, i) => {
   let tag = "";
-
   miniGame.genre.map((genre) => {
     tag += `<div class="genre">${genre}</div>`;
   });

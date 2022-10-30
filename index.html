@@ -4,8 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://cdngarenanow-a.akamaihd.net/webth/cdn/garena/gamertocoder/bmg-logo/02.png"
+    />
     <link href="/css/index.css" rel="stylesheet" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans&family=Russo+One&display=swap"
+    />
+    <title>Garena Blockman Go</title>
   </head>
   <body>
     <div id="app">
@@ -24,13 +34,31 @@
           <li><a href="#about">About</a></li>
         </ul>
       </div>
-      <div class="home">
+      <div class="home" id="home">
         <div class="download"></div>
       </div>
       <div class="gamezone">
         <h1>Game Zone</h1>
         <div class="minigames" id="minigames"></div>
       </div>
+      <button class="up">
+        <a href="#home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5"
+            />
+          </svg>
+        </a>
+      </button>
     </div>
     <script src="js/index.js" type="module"></script>
   </body>
