@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  max-width: 80rem;
+  margin: auto;
+}
+
+.navbar li {
+  float: left;
+  flex: auto;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.navbar .logo {
+  width: auto;
+  height: 2rem;
+}
+
+.minigames {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.minigames .card {
+  width: 10rem;
+  margin: 0.25rem;
+}
+
+.minigames .logo {
+  width: auto;
+  height: 10rem;
+}
+
+.minigames .description {
+  display: flex;
+  flex-wrap: wrap;
+}
