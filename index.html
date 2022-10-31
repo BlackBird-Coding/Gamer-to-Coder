@@ -19,30 +19,44 @@
   </head>
   <body>
     <div id="app">
-      <div class="navbar">
-        <ul>
-          <li>
-            <a href="#home">
-              <img
-                src="https://cdngarenanow-a.akamaihd.net/webth/cdn/garena/gamertocoder/bmg-logo/01.png"
-                class="logo"
-              />
-            </a>
-          </li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
-        </ul>
-      </div>
+      <a href="#home">
+        <img
+          src="https://cdngarenanow-a.akamaihd.net/webth/cdn/garena/gamertocoder/bmg-logo/01.png"
+          class="logo_block"
+        />
+      </a>
       <div class="home" id="home">
-        <div class="download"></div>
+        <h1>Game</h1>
+        <div class="card" id="gamecard">
+          <div class="card_img">
+            <img
+              src="https://cdngarenanow-a.akamaihd.net/webth/cdn/garena/gamertocoder/bedwars/bedwars_01.png"
+            />
+          </div>
+          <div class="card_desc">
+            <h2>Bed War</h2>
+            <p>
+              Bed Wars มินิเกมแนว PVP ที่สามารถตั้งทีมเล่นกับเพื่อน ๆ ได้
+              ภารกิจที่ผู้เล่นจะได้รับคือการปกป้องเตียงของทีมและทำลายเตียงของทีมศัตรู
+              ร่วมมือกับเพื่อนร่วมทีมในการเก็บของ ฟาร์มอาวุธเช่น เหล็ก ทอง มรกต
+              และเพชรให้ได้มากที่สุด
+              เพื่อป้องกันเตียงและเพิ่มความแรงของอาวุธต่อสู้
+            </p>
+            <div class="tags">
+              <div class="genre">Action</div>
+              <div class="genre">PvP</div>
+              <div class="genre">Multiplayer</div>
+            </div>
+            <button>Play</button>
+          </div>
+        </div>
       </div>
-      <div class="gamezone">
+      <div class="gamezone" id="gamezone">
         <h1>Game Zone</h1>
         <div class="minigames" id="minigames"></div>
       </div>
-      <button class="up">
-        <a href="#home">
+      <a href="#home">
+        <button class="up">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -56,9 +70,8 @@
               stroke-linejoin="round"
               d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5"
             />
-          </svg>
-        </a>
-      </button>
+          </svg></button
+      ></a>
     </div>
     <script src="js/index.js" type="module"></script>
   </body>
